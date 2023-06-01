@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@300;400&family=Roboto:wght@100;300;400&display=swap"
+        rel="stylesheet">
+
+    <title>CV Pedro Sanchez</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="toggle-btn" id="btnNavBar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="container-flex">
+                <div class="container-nav-bar">
+                    <ul class="nav-bar">
+                        <li class="container-nav-bar-items"><a class="nav-bar-items" href="#inicio">Inicio</a></li>
+                        <li class="container-nav-bar-items"><a class="nav-bar-items" href="#sobremi">Sobre mí</a></li>
+                        <li class="container-nav-bar-items"><a class="nav-bar-items" href="#educacion">Educacion</a>
+                        </li>
+                        <li class="container-nav-bar-items"><a class="nav-bar-items"
+                                href="#experiencia">Experiencias</a></li>
+                        <li class="container-nav-bar-items"><a class="nav-bar-items" href="#tecnologia">Tecnologias</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <article class="container">
+        <section>
+            <div class="container-img-foto-cv">
+                <img class="img-foto-cv" src="https://www.w3schools.com/howto/img_avatar.png" alt="">
+            </div>
+            <div class="container-my-name">
+                <h1 class="title-name">Pedro A. Sánchez</h1>
+                <h2 class="title-developer">Frontend Developer</h2>
+            </div>
+        </section>
+
+        <section>
+            <details>
+                <summary>
+                    <h3>Sobre mí</h3>
+                </summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste debitis, recusandae perferendis nobis
+                    earum et iusto alias beatae. Porro fuga officia ab officiis libero aliquid, cumque quidem sed veniam
+                    odio!</p>
+            </details>
+        </section>
+
+        <section>
+            <div>
+                <h3>Educación</h3>
+            </div>
+            <div>
+                <p>Secundario Bachiller Cs Naturales (Instituto Juan Elicagaray)</p>
+            </div>
+            <div>
+                <p>Programación CEPIT 2023</p>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h3>Experiencia</h3>
+            </div>
+            <div>
+                <p>Programador Trainee</p>
+            </div>
+        </section>
+
+        <section class="container-tecnologia" id="tecnologia">
+            <div>
+                <h3>Tecnologias</h3>
+            </div>
+            <div>
+                <ul>
+                    <li>- HTML</li>
+                    <li>- CSS</li>
+                    <li>- Javascript</li>
+                    <li>- TypeScript</li>
+                    <li>- Angular</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="container-form">
+            <div class="form">
+                <form>
+                    <div class="container-inputs">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="container-inputs">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="container-inputs">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" cols="30" rows="10" placeholder="Escriba un mensaje" required></textarea>
+                    </div>
+
+
+                    <button type="submit" class="button-submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <div class="facebook-social-media">
+            <a href="https://facebook.com" ><i class="fa-brands fa-square-facebook"></i></a>
+        </div>
+
+
+    </article>
+    <footer class="container-footer">
+        <p class="developer">Desarrollado por Pedro Sánchez</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

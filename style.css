@@ -1,0 +1,174 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    color: #603C2A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    background: beige;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 290px;
+    margin: -210px auto;
+    transition: all 1s ease-out;
+}
+
+.nav-bar-items {
+    text-decoration: none;
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: end;
+}
+
+.container-nav-bar-items {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-nav-bar {
+    transition: all 1s ease-out;
+    transform: translateY(-120%);
+    margin-top: 15px;
+    width: 100%;
+}
+
+.container-nav-bar-active {
+    display: block;
+    transition: all 1s ease-out;
+    transform: translateY(0%);
+}
+
+.nav-bar {
+    background: #603c2a57;
+    width: 100%;
+    height: 100%;
+}
+
+.toggle-btn {
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    right: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.fa-bars{
+    font-size: 25px;
+}
+
+.container-img-foto-cv {
+    display: flex;
+    justify-content: center;
+}
+
+.img-foto-cv {
+    margin: 10px 0px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+}
+
+.container-my-name {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-name {
+    font-size: 33px;
+}
+
+.title-developer {
+    font-size: 22px;
+}
+
+summary {
+    display: inline-block;
+}
+
+section {
+    margin-top: 25px;
+}
+
+.container-form {
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-top: 5px;
+    color: #603C2A;
+    border: 2px solid #603C2A;
+}
+
+input::placeholder, textarea::placeholder{
+    color:#603C2A;
+}
+
+.button-submit {
+    margin: auto;
+    display: block;
+    background: #603C2A;
+    color: #D4BDB0;
+    width: 33%;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+}
+
+.container-inputs {
+    margin-bottom: 15px;
+}
+
+.container-footer{
+    margin-top: 210px;
+}
+
+.developer {
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.fa-square-facebook {
+    font-size: 25px;
+}
+
+.facebook-social-media {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 300px) {
+    .container {
+        width: 260px;
+    }
+
+    .title-name {
+        font-size: 25px;
+    }
+
+    .title-developer {
+        font-size: 20px;
+    }
+}
